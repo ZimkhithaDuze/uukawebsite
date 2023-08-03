@@ -1,0 +1,140 @@
+:root {
+  --primary-font: Ubuntu;
+  --branding-color: #202020;
+}
+h1 {
+  line-height: 28px;
+  padding: 25px;
+}
+h2 {
+  font-weight: normal;
+  line-height: 84px;
+  padding-top: 30px;
+}
+h1,
+h2,
+h5,
+.navbar-brand {
+  font-family: var(--primary-font);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  text-align: center;
+}
+
+body {
+  color: white;
+  background-color: var(--branding-color);
+}
+p {
+  text-align: center;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+a {
+  color: cadetblue;
+  transition: all 100ms ease-in-out;
+}
+a:hover {
+  color: #ffffff;
+}
+
+.hero {S
+  background-image: url   background-image: url ("./black.jpg");
+  text-align: center;
+  padding: 100px 20px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero h2 {
+  font-size: 24px;
+}
+.hero h1 {
+  font-size: 72px;
+}
+.btn-branding {
+  background: #ffffff;
+  border-radius: 50px;
+  font-family: Poppins;
+  font-size: 14px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 18px 40px;
+  line-height: 17px;
+  color: #272142;
+  font-weight: 700;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.navigation-links {
+  font-weight: bold;
+  color: #272142;
+}
+.contact-button {
+  text-align: center;
+}
+
+.about-content {
+  padding-right: 40px;
+}
+.col {
+  text-align: right;
+}
+.col {
+  text-align: center;
+}
+.pull-right {
+  margin: 40 40 40 auto;
+}
+footer .contact-box {
+  background: var(--secondary-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+footer .contact-box p {
+  margin: 0;
+}
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+}
+footer .social-links a {
+  margin: 0 20px;
+  padding: 15px 30px;
+  border-radius: 50%;
+  color: var(--branding-color);
+  background-color: var(--secondary-color);
+  transition: all 100ms ease-in-out;
+  font-size: 18px;
+}
+footer .social-links a:hover {
+  color: white;
+  background: var(--branding-color);
+}
+
+footer .email-link:hover {
+  color: var(--branding-color);
+}
+
+
+@media (max-width: 500px) {
+  p {
+    font-size: 16px;
+  }
+}
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 36px;
+  }
+}
+@media (max-width: 500px) {
+  h5 {
+    font-size: 14px;
+  }
+}
